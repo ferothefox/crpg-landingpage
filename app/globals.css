@@ -2,26 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html, body {
+  height: 100%;
+  width: 100%;
+  color: #929295;
+  /* background: #151519; */
+  background: radial-gradient(100% 100% at 50% 0%, #151519 0%, #101012 100%);
+  overflow-x: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@keyframes landing-animate-in {
+  0% {
+    transform:translateY(-4px);
+    opacity:0
+  }
+  to {
+    transform:none;
+    opacity:1
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@keyframes line-animate-in {
+  0% {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+@keyframes header-animate-in {
+  0% {
+    /* height: 0; */
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    /* height: 64px; */
+  }
+}
+
+@keyframes vectors-animate-in {
+  0% {
+    /* height: 0; */
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    /* height: 64px; */
+  }
+}
+
+.custom-animate-in {
+  animation: landing-animate-in 1.2s cubic-bezier(.68,-.55,.265,1) both;
+  will-change: transform
+}
+
+.animate-line-in {
+  animation: line-animate-in 1.2s cubic-bezier(.68,-.55,.265,1) both;
+  will-change: transform
+}
+
+.animate-header-in {
+  animation: header-animate-in 1.2s cubic-bezier(.68,-.55,.265,1) both;
+  will-change: transform
+}
+
+.animate-vectors-in {
+  animation: vectors-animate-in 2.2s cubic-bezier(.68,-.55,.265,1) both;
+  will-change: transform
 }
