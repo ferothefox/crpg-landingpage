@@ -118,10 +118,10 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="w-full bg-[#05050A] p-8">
-          <div className="max-w-[700px] w-full mx-auto flex flex-row">
-            <p className="w-full flex flex-1 items-center justify-center"><a href="/legal/terms" className="hover:text-white">Terms of Service</a></p>
-            <p className="w-full flex flex-1 items-center justify-center"><a href="/legal/privacy" className="hover:text-white">Privacy Policy</a></p>
+      <footer className="w-full bg-[#05050A]">
+          <div className="max-w-[700px] w-full mx-auto flex flex-row  h-20">
+            <a className="w-full flex flex-1 items-center justify-center  hover:bg-[#ffffff11] hover:text-white" href="/legal/terms">Terms of Service</a>
+            <a className="w-full flex flex-1 items-center justify-center hover:bg-[#ffffff11] hover:text-white" href="/legal/privacy">Privacy Policy</a>
           </div>
       </footer>
       <div className="hidden xl:block animate-line-in max-w-[700px] w-full fixed h-full pointer-events-none border-x-2 border-[#ffffff11] border-dashed"></div>
