@@ -67,7 +67,7 @@ export default function Home() {
           </div>
           <div className="relative object-cover w-full aspect-[700/600] max-w-[694px] mt-8">
             <svg
-              className="animate-vectors-in absolute -right-48 top-1/2 -translate-y-1/2 z-[1]"
+              className="animate-vectors-in absolute -right-48 top-1/2 -translate-y-1/2 z-[1] pointer-events-none"
               width="420"
               height="420"
               viewBox="0 0 420 420"
@@ -87,7 +87,7 @@ export default function Home() {
             </svg>
 
             <svg
-              className="animate-vectors-in absolute -left-72 top-1/2 -translate-y-1/2 z-[1]"
+              className="animate-vectors-in absolute -left-72 top-1/2 -translate-y-1/2 z-[1] pointer-events-none"
               width="517"
               height="517"
               viewBox="0 0 517 517"
@@ -119,10 +119,10 @@ export default function Home() {
       </div>
 
       <footer className="w-full bg-[#05050A]">
-          <div className="max-w-[700px] w-full mx-auto flex flex-row  h-20">
-            <a className="w-full flex flex-1 items-center justify-center  hover:bg-[#ffffff11] hover:text-white" href="/legal/terms">Terms of Service</a>
-            <a className="w-full flex flex-1 items-center justify-center hover:bg-[#ffffff11] hover:text-white" href="/legal/privacy">Privacy Policy</a>
-          </div>
+        <div className="max-w-[700px] w-full mx-auto flex flex-row h-20">
+          <a className="w-full flex flex-1 items-center justify-center  hover:bg-[#ffffff11] hover:text-white" href="/legal/terms">Terms of Service</a>
+          <a className="w-full flex flex-1 items-center justify-center hover:bg-[#ffffff11] hover:text-white" href="/legal/privacy">Privacy Policy</a>
+        </div>
       </footer>
       <div className="hidden xl:block animate-line-in max-w-[700px] w-full fixed h-full pointer-events-none border-x-2 border-[#ffffff11] border-dashed"></div>
       <div className="hidden xl:block animate-line-in max-w-6xl w-full fixed h-full pointer-events-none border-x-2 border-[#ffffff11] border-dashed"></div>
