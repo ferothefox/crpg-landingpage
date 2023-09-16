@@ -4,8 +4,11 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
+  type: 'website',
   title: 'Custom RPG',
-  description: 'Custom RPG is the easiest way to create a Discord-based RPG.',
+  description: 'Create amazing RPGs within Discord with our highly customizable Discord bot!',
+  url: 'https://customrpg.xyz/',
+  image: 'https://customrpg.xyz/assets/img/logo.png',
 }
 
 export default function RootLayout({
