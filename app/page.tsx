@@ -27,20 +27,20 @@ export default function Home() {
               Login
             </div>
           </Link>
-                    <div className="border-r-2 border-[transparent]">
-            <div className="w-16 h-16 p-4 flex">
-              
-            </div>
+            <div className="border-r-2 border-[transparent]">
+              <div className="w-16 h-16 p-4 flex">
+                
+              </div>
           </div>
         </header>
 
         <div className="custom-animate-in relative w-full flex flex-col items-center my-16 pt-8 px-4">
-          <div className="max-w-6xl w-full absolute pointer-events-none border-b-2 border-[#ffffff11] border-dashed top-0"></div>
+          <div className="hidden xl:block max-w-6xl w-full absolute pointer-events-none border-b-2 border-[#ffffff11] border-dashed top-0"></div>
           <div className="max-w-[700px] flex flex-col gap-8">
-            <h1 className="font-extrabold leading-tight tracking-tight text-[2.9rem] text-white">
+            <h1 className="font-extrabold leading-tight tracking-tight text-[max(24px,min(5vw,46px))] text-white">
               Custom RPG is the easiest way to create a Discord-based RPG.
             </h1>
-            <p className="tracking-tight text-xl">
+            <p className="tracking-tight text-[max(14px,min(5vw,20px))]">
               With customizable maps, items, fights, and more, create your own adventures for your
               server with Custom RPG.
             </p>
@@ -119,9 +119,9 @@ export default function Home() {
             <p className="w-full flex flex-1 items-center justify-center">Privacy Policy</p>
           </div>
       </footer>
-      <div className="animate-line-in max-w-[700px] w-full fixed h-full pointer-events-none border-x-2 border-[#ffffff11] border-dashed"></div>
-      <div className="animate-line-in max-w-6xl w-full fixed h-full pointer-events-none border-x-2 border-[#ffffff11] border-dashed"></div>
-      <div className="animate-line-in max-w-5xl w-full fixed h-full pointer-events-none border-x-2 border-[#ffffff11] border-dashed"></div>
+      <div className="hidden xl:block animate-line-in max-w-[700px] w-full fixed h-full pointer-events-none border-x-2 border-[#ffffff11] border-dashed"></div>
+      <div className="hidden xl:block animate-line-in max-w-6xl w-full fixed h-full pointer-events-none border-x-2 border-[#ffffff11] border-dashed"></div>
+      <div className="hidden xl:block animate-line-in max-w-5xl w-full fixed h-full pointer-events-none border-x-2 border-[#ffffff11] border-dashed"></div>
     </main>
   );
 }
