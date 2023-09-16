@@ -22,7 +22,7 @@ export default function Home() {
               Manage Servers
             </div>
           </Link> */}
-          <Link className="ml-auto transition hover:bg-[#ffffff11] text-white" href="/">
+          <Link className="ml-auto transition hover:bg-[#ffffff11] text-white" href="/login">
             <div className="w-40 h-16 p-4 flex items-center justify-center text-sm font-bold">
               Login
             </div>
@@ -47,7 +47,7 @@ export default function Home() {
           </div>
           <div className="w-full max-w-5xl mt-8 border-y-2 border-[#ffffff11] border-dashed">
             <div className="max-w-[700px] w-full mx-auto">
-              <a className="w-fit h-fit pl-7 px-8 py-5 flex flex-row items-center gap-4 bg-[#fff] text-black rounded-sm">
+              <a className="w-fit h-fit pl-7 px-8 py-5 flex flex-row items-center gap-4 bg-[#fff] text-black rounded-sm transition hover:bg-[#5865F2] hover:text-white" href="/login">
                 <svg
                   className="w-4 h-4 fill-current"
                   role="img"
@@ -115,8 +115,8 @@ export default function Home() {
 
       <footer className="w-full bg-[#05050A] p-8">
           <div className="max-w-[700px] w-full mx-auto flex flex-row">
-            <p className="w-full flex flex-1 items-center justify-center">Terms of Service</p>
-            <p className="w-full flex flex-1 items-center justify-center">Privacy Policy</p>
+            <p className="w-full flex flex-1 items-center justify-center"><a href="/legal/terms" className="hover:text-white">Terms of Service</a></p>
+            <p className="w-full flex flex-1 items-center justify-center"><a href="/legal/privacy" className="hover:text-white">Privacy Policy</a></p>
           </div>
       </footer>
       <div className="animate-line-in max-w-[700px] w-full fixed h-full pointer-events-none border-x-2 border-[#ffffff11] border-dashed"></div>
