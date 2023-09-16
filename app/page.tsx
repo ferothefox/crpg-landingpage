@@ -111,7 +111,7 @@ export default function Home() {
                 </clipPath>
               </defs>
             </svg>
-            <Image className="z-[2]" quality={100} alt="" fill src="/assets/img/landingHero2.png"></Image>
+            <Image className="z-[2]" quality={100} alt="" fill src="/assets/img/landingHero2.png" priority={true}></Image>
           </div>
           <div className="max-w-6xl w-full absolute pointer-events-none border-b-2 border-[#ffffff11] border-dashed bottom-0"></div>
         </div>
