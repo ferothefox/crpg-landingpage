@@ -72,3 +72,16 @@ html, body {
   animation: vectors-animate-in 2.2s cubic-bezier(.68,-.55,.265,1) both;
   will-change: transform
 }
+
+* {
+  scrollbar-width: thin;
+  /* scrollbar-color: #4b5153 #222222; */
+}
+
+*::-webkit-scrollbar {
+  width: 9px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4b5153;
+}
