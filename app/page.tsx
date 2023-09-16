@@ -14,7 +14,7 @@ export default function Home() {
           </Link>
           <Link className="transition hover:bg-[#ffffff11] text-white" href="/">
             <div className="w-40 h-16 p-4 flex items-center justify-center text-sm font-bold">
-              Home
+              Custom RPG
             </div>
           </Link>
           {/* <Link className="transition hover:bg-[#ffffff11] text-white" href="/">
@@ -37,8 +37,8 @@ export default function Home() {
         <div className="custom-animate-in relative w-full flex flex-col items-center my-16 pt-8 px-4">
           <div className="hidden xl:block max-w-6xl w-full absolute pointer-events-none border-b-2 border-[#ffffff11] border-dashed top-0"></div>
           <div className="max-w-[700px] flex flex-col gap-8">
-            <h1 className="font-extrabold leading-tight tracking-tight text-[max(24px,min(5vw,46px))] text-white">
-              Custom RPG is the easiest way to create a Discord-based RPG.
+            <h1 className="font-extrabold leading-tight tracking-tight text-[2.9rem] text-white">
+              <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-indigo-400">Custom RPG</span> is the easiest way to create a Discord-based RPG.
             </h1>
             <p className="tracking-tight text-[max(14px,min(5vw,20px))]">
               With customizable maps, items, fights, and more, create your own adventures for your
@@ -47,7 +47,7 @@ export default function Home() {
           </div>
           <div className="w-full max-w-5xl mt-8 border-y-2 border-[#ffffff11] border-dashed">
             <div className="max-w-[700px] w-full mx-auto">
-              <a className="w-fit h-fit pl-7 px-8 py-5 flex flex-row items-center gap-4 bg-[#fff] text-black rounded-sm transition hover:bg-[#5865F2] hover:text-white" href="%landingLoginLink%">
+              <a className="w-fit h-fit pl-7 px-8 py-5 flex flex-row items-center gap-4 bg-[#5865F2] text-white rounded-sm transition hover:bg-[#fff] hover:text-black" href="%landingLoginLink%">
                 {/* <svg
                   className="w-4 h-4 fill-current"
                   role="img"
@@ -56,11 +56,11 @@ export default function Home() {
                   <title>Discord</title>
                   <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"></path>
                 </svg> */}
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 fill-current">
+                {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 fill-current">
                   <path d="M5.507 4.048A3 3 0 017.785 3h8.43a3 3 0 012.278 1.048l1.722 2.008A4.533 4.533 0 0019.5 6h-15c-.243 0-.482.02-.715.056l1.722-2.008z" />
                   <path fill-rule="evenodd" d="M1.5 10.5a3 3 0 013-3h15a3 3 0 110 6h-15a3 3 0 01-3-3zm15 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm2.25.75a.75.75 0 100-1.5.75.75 0 000 1.5zM4.5 15a3 3 0 100 6h15a3 3 0 100-6h-15zm11.25 3.75a.75.75 0 100-1.5.75.75 0 000 1.5zM19.5 18a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" clip-rule="evenodd" />
-                </svg>
-                %landingLoginButtonText%
+                </svg> */}
+                %landingLoginButtonSvg%%landingLoginButtonText%
               </a>
             </div>
           </div>
