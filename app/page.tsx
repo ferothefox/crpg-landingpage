@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex h-full flex-col items-center justify-between">
       <div className="max-w-6xl w-full mx-auto flex flex-col items-center">
         <header className="animate-header-in w-full flex flex-row h-16 items-center border-b-2 border-[#ffffff11] border-dashed">
-          <Link className="transition hover:bg-[#ffffff22] border-r-2 border-[transparent]" href="/">
+          <Link className="transition hover:bg-[#ffffff22] border-r-2 border-[transparent]" href="/" aria-label="Custom RPG">
             <div className="w-16 h-16 p-4 flex">
               <Logo />
             </div>
