@@ -7,7 +7,7 @@ const Page = () => {
     	<main className="flex h-full flex-col items-center justify-between">
     		<div className="max-w-6xl w-full mx-auto flex flex-col items-center">
 		        <header className="animate-header-in w-full flex flex-row h-16 items-center border-b-2 border-[#ffffff11] border-dashed">
-		          <a className="transition border-r-2 border-[transparent] flex flex-row items-center gap-2 items-center font-extrabold text-white tracking-tight" href="/">
+		          <a className="transition border-r-2 border-[transparent] flex flex-row items-center gap-2 font-extrabold text-white tracking-tight" href="/">
 		            <div className="w-16 h-16 p-4 flex">
 		              <Logo />
 		            </div>
@@ -30,7 +30,7 @@ const Page = () => {
 		        		</a>
 		        	</div>
 
-		        	<div class="servers-list" id="servers"></div>
+		        	<div className="servers-list" id="servers"></div>
         		</div>
         	</div>
     	</main>
